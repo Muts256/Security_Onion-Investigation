@@ -5,7 +5,7 @@
 - <b> Digital Forensics </b>
   - [Investigation](https://github.com/Muts256/Security_Onion-Investigation)
   
-<h3> Documentation will be uploaded soon</h3>
+<h3> Documentation still in the works, will be uploaded soon</h3>
 
 <h2> 🤳 Connect with me:</h2>
 
