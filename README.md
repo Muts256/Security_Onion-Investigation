@@ -1,8 +1,8 @@
 <h1>Hi, I'm Michael! <br/><a href="https://www.linkedin.com/in/michael-musoke/">Cybersecurity Professional</a></h1>
 
-<h2>👨‍💻 Digital Forensic Investigation Project:</h2>
+<h2>👨‍💻 Digital Forensics Investigation Project:</h2>
 
-- <b> Digital Forensic Report (Junior Digital Analyst)</b>
+- <b> Digital Forensics </b>
   - [Investigation](https://github.com/Muts256/Security_Onion-Investigation)
   
 
