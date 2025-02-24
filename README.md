@@ -3,7 +3,7 @@
 <h2>👨‍💻 Digital Forensics Investigation</h2>
 
 - <b> Digital Forensics </b>
-  - [Investigation](https://github.com/Muts256/Security_Onion-Investigation)
+  - [Security Onion Investigation](https://github.com/Muts256/Security_Onion-Investigation)
 
   <h4>For the details, open the pdf attached</h4>
 
