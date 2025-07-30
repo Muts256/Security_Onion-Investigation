@@ -7,6 +7,15 @@
 
 The investigation using Security Onion provides a comprehensive analysis of the network traffic captured in a pcap file. The integrated tools enable security teams to identify anomalies and correlate events, ultimately confirming the presence of suspicious behaviour that may indicate an incident.
 
+Objective:
+  - To enhance the analyst's practical skills using SIEM- Wazuh.
+  - Installation and configuration of Security Onion
+  - Search for anomalies/usual behaviour
+  - Importing a pcap into Security Onion
+  - Use OSINT tools, e.g., Virus Total, AbuseIP, to gather more details about the anomalies
+  - Using Gary Kessler's Magic number to identify discrepancies in file extensions
+  - Document the findings. See PDF above.
+
   <h4>For the details, open the pdf attached</h4>
 
 <h2> 🤳 Connect with me:</h2>
