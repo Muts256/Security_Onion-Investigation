@@ -5,6 +5,8 @@
 - <b> Digital Forensics </b>
   - [Security Onion Investigation](https://github.com/Muts256/Security_Onion-Investigation)
 
+The investigation using Security Onion provides a comprehensive analysis of the network traffic captured in a pcap file. The integrated tools enable security teams to identify anomalies and correlate events, ultimately confirming the presence of suspicious behaviour that may indicate an incident.
+
   <h4>For the details, open the pdf attached</h4>
 
 <h2> 🤳 Connect with me:</h2>
