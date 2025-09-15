@@ -16,6 +16,11 @@ Objective:
   - Using Gary Kessler's Magic number to identify discrepancies in file extensions.
   - Document the findings. See PDF above.
 
+Lessons Learned:
+  - Using Gary Kessler's Magic number to identify discrepancies in file extensions
+  - Using OSINT tools such as Virustotal. 
+  - Searching for anomalies
+  - Importing a pcap into Security Onion
   <h4>For the details, open the pdf attached</h4>
 
 <h2> 🤳 Connect with me:</h2>
