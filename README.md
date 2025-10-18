@@ -12,7 +12,7 @@ Objective:
   - Installation and configuration of Security Onion.
   - Search for anomalies/unusual behaviour.
   - Importing a pcap into Security Onion.
-  - Use OSINT tools, e.g., Virus Total, AbuseIP, to gather more details about the anomalies and artifacts collected.
+  - Use OSINT tools, e.g., Virus Total, AbuseIPDB, to gather more details about the anomalies and artifacts collected.
   - Using Gary Kessler's Magic number to identify discrepancies in file extensions.
   - Document the findings. See PDF above.
 
