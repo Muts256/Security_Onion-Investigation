@@ -14,6 +14,10 @@ Summary:
   - Use OSINT tools, e.g., Virus Total, AbuseIPDB, to gather more details about the anomalies and artifacts collected.
   - Using Gary Kessler's Magic number to identify discrepancies in file extensions.
 
+Tools and Technologies:
+  - Security Onion tools.
+  - Suricata & Zeek to detect anomalies/suspicious files.
+  - OSINT tools for  AbusuIPDB, Virus Total.
 
 Lessons Learned:
   - Using Security Onion as a SIEM.
