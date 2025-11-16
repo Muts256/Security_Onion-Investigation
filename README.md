@@ -7,16 +7,16 @@
 
 The investigation using Security Onion provides a comprehensive analysis of the network traffic captured in a pcap file. The integrated tools enable security teams to identify anomalies and correlate events, ultimately confirming the presence of suspicious behaviour that may indicate an incident.
 
-Objective:
-  - To enhance practical skills using a SIEM.
+Summary:
   - Installation and configuration of Security Onion.
   - Search for anomalies/unusual behaviour.
   - Importing a pcap into Security Onion.
   - Use OSINT tools, e.g., Virus Total, AbuseIPDB, to gather more details about the anomalies and artifacts collected.
   - Using Gary Kessler's Magic number to identify discrepancies in file extensions.
-  - Document the findings. See PDF above.
+
 
 Lessons Learned:
+  - Using Security Onion as a SIEM.
   - Using Gary Kessler's Magic number to identify discrepancies in file extensions
   - Using OSINT tools such as Virustotal. 
   - Searching for anomalies
