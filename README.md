@@ -20,7 +20,7 @@ Tools and Technologies:
   - OSINT tools for  AbusuIPDB, Virus Total.
 
 Lessons Learned:
-  - Using Security Onion as a SIEM.
+  - Installing and configuring Security Onion as a SIEM.
   - Using Gary Kessler's Magic number to identify discrepancies in file extensions
   - Using OSINT tools such as Virustotal. 
   - Searching for anomalies
