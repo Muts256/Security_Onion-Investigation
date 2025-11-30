@@ -1,31 +1,19 @@
 <h1>Hi, I'm Michael! <br/><a href="https://www.linkedin.com/in/michael-musoke/">Cybersecurity Professional</a></h1>
 
-<h2>👨‍💻 Digital Forensics Investigation</h2>
+<h2>👨‍💻 TOR Usage Threat Hunt </h2>
 
-- <b> Digital Forensics </b>
-  - [Security Onion Investigation](https://github.com/Muts256/Security_Onion-Investigation)
+- <b> Detection of Unauthorized TOR Browser Installation and Use</b>
 
-The investigation using Security Onion provides a comprehensive analysis of the network traffic captured in a pcap file. The integrated tools enable security teams to identify anomalies and correlate events, ultimately confirming the presence of suspicious behaviour that may indicate an incident.
+    <h2> Scenario: </h2>
+    Management suspects that some employees may be using TOR browsers to bypass network security controls because recent network logs show unusual encrypted traffic patterns and connections to known TOR entry nodes. Additionally, there have been anonymous reports of employees discussing ways to access restricted sites during work hours. The goal is to detect any TOR usage and analyze related security incidents to mitigate potential risks.
 
-Summary:
-  - Installation and configuration of Security Onion.
-  - Search for anomalies/unusual behaviour.
-  - Importing a pcap into Security Onion.
-  - Use OSINT tools, e.g., Virus Total, AbuseIPDB, to gather more details about the anomalies and artifacts collected.
-  - Using Gary Kessler's Magic number to identify discrepancies in file extensions.
+    <h2> Steps Taken: </h2>
 
-Tools and Technologies:
-  - Security Onion tools.
-  - Suricata & Zeek to detect anomalies/suspicious files.
-  - OSINT tools for  AbusuIPDB, Virus Total.
+    The first search was conducted in the DeviceFileEvents for any file containing the string “tor”. The results reveal that a labuser1 had something to do with the tor file.
 
-Lessons Learned:
-  - Installing and configuring Security Onion as a SIEM.
-  - Using Gary Kessler's Magic number to identify discrepancies in file extensions
-  - Using OSINT tools such as Virustotal. 
-  - Searching for anomalies
-  - Importing a pcap into Security Onion
-  <h4>For the details, open the pdf attached</h4>
+    Query used to get this information:
+
+     ![image alt ](https://github.com/Muts256/TOR-Usage-Threat-Hunt/blob/0e8ca97df3e2e2a30b5688bb45bd49c542b7ae0e/T6.png)
 
 <h2> 🤳 Connect with me:</h2>
 
