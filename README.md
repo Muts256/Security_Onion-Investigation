@@ -20,9 +20,10 @@
 <h2>Import the PCAP</h2>
 
   Log on to the security onion console. Create a directory into which the pcap will be downloaded
-  using mkdir command e.g. mkdir Malware
+  using mkdir command e.g., mkdir Malware
+  
 
-
+  ![image alt](https://drive.google.com/file/d/1nbs0stnJg0U_EVbBIymF2COL5wEz0fgU/view?usp=sharing)
 
      
 
