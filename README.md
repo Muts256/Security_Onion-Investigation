@@ -5,18 +5,22 @@
 - <b> Security Onion </b>
   - [Investigation of a PCAP](https://github.com/Muts256/Security_Onion-Investigation)
 
-  <h2> Introduction </h2>
+<h2> Introduction </h2>
    Security Onion is a free open-source Linux distribution for network security monitoring, intrusion detection, and log management. It integrated powerful tools like Suricata, Zeek, Wazuh, and the ELK stack to capture and analyse network traffic.
   In the security industry, Security Onion plays a critical role by providing SOCs, incident responders, and threat hunters with a comprehensive platform for real-time monitoring and forensic analysis. Its ability to correlate data from multiple     sources enables organisations to quickly identify, investigate, and mitigate potential threats, thereby enhancing their overall security posture.
 
-  <h>Technology Used </h2>
+<h2> Technology Used </h2>
 
   Security Onion
 
-    <h2>Import the PCAP</h2>
+<h2> Scenario </h2>
 
-    Log on to the security onion console. Create a directory into which the pcap will be downloaded
-    using mkdir command e.g. mkdir Malware
+  A suspicious packet was captured in an organisation's network traffic. You have been asked to investigate this packet and find what it contains 
+
+<h2>Import the PCAP</h2>
+
+  Log on to the security onion console. Create a directory into which the pcap will be downloaded
+  using mkdir command e.g. mkdir Malware
 
 
 
