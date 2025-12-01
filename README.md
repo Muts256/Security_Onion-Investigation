@@ -23,10 +23,29 @@
   using mkdir command e.g., mkdir Malware
   
 
-  ![image alt](https://drive.google.com/file/d/1nbs0stnJg0U_EVbBIymF2COL5wEz0fgU/view?usp=sharing)
+  ![image alt](https://github.com/Muts256/Security_Onion-Investigation/blob/8d901d6d8603c48c06c66f52607d39a78b881874/S1.png)
 
-     
+  Use the command wget to download an infected pcap from the website, as shown in the image above.
 
+  When the zipped pcap is downloaded, use the unzip command to decompress the pcap. Use the provided password to unlock the zipped file
+  i.e., unzip name of file
+
+  ![image alt](https://github.com/Muts256/Security_Onion-Investigation/blob/8d901d6d8603c48c06c66f52607d39a78b881874/S2.png)
+
+  Next is to import the pcap using the command so-import-pcap name of pcap. After the import completes, triple-click on the hyperlink and copy it into a browser
+
+  ![image alt](https://github.com/Muts256/Security_Onion-Investigation/blob/8d901d6d8603c48c06c66f52607d39a78b881874/S3.png)
+
+  Once the browser opens into the pcap. Select the dates the pcap was captured.
+
+  ![image alt](https://github.com/Muts256/Security_Onion-Investigation/blob/8d901d6d8603c48c06c66f52607d39a78b881874/S4.png)
+
+
+
+
+
+
+  
 <h2> 🤳 Connect with me:</h2>
 
 [<img align="left" alt="michael-musoke | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
