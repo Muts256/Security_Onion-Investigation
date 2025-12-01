@@ -1,19 +1,22 @@
 <h1>Hi, I'm Michael! <br/><a href="https://www.linkedin.com/in/michael-musoke/">Cybersecurity Professional</a></h1>
 
-<h2>👨‍💻 TOR Usage Threat Hunt </h2>
+<h2>👨‍💻 Security Onion </h2>
 
-- <b> Detection of Unauthorized TOR Browser Installation and Use</b>
+- <b> Security Onion </b>
+  - [Investigation PCAP](https://github.com/Muts256/Security_Onion-Investigation)
 
-    <h2> Scenario: </h2>
-    Management suspects that some employees may be using TOR browsers to bypass network security controls because recent network logs show unusual encrypted traffic patterns and connections to known TOR entry nodes. Additionally, there have been anonymous reports of employees discussing ways to access restricted sites during work hours. The goal is to detect any TOR usage and analyze related security incidents to mitigate potential risks.
+    <h2> Introduction </h2>
+   Security Onion is a free open-source Linux distribution for network security monitoring, intrusion detection, and log management. It integrated powerful tools like Suricata, Zeek, Wazuh, and the ELK stack to capture and analyse network traffic.
+In the security industry, Security Onion plays a critical role by providing SOCs, incident responders, and threat hunters with a comprehensive platform for real-time monitoring and forensic analysis. Its ability to correlate data from multiple sources enables organisations to quickly identify, investigate, and mitigate potential threats, thereby enhancing their overall security posture.
 
-    <h2> Steps Taken: </h2>
+    <h2>Import the PCAP</h2>
 
-    The first search was conducted in the DeviceFileEvents for any file containing the string “tor”. The results reveal that a labuser1 had something to do with the tor file.
+Log on to the security onion console. Create a directory into which the pcap will be downloaded
+using mkdir command e.g. mkdir Malware
 
-    Query used to get this information:
 
-     ![image alt ](https://github.com/Muts256/TOR-Usage-Threat-Hunt/blob/0e8ca97df3e2e2a30b5688bb45bd49c542b7ae0e/T6.png)
+
+     
 
 <h2> 🤳 Connect with me:</h2>
 
