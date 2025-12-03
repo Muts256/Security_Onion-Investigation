@@ -75,9 +75,22 @@
 
   The preliminary investigation indicates that the IP address identified in the packet capture has multiple malicious reports on both AbuseIPDB and VirusTotal. While these findings do not confirm compromise on their own, they provide sufficient       indicators of potentially harmful activity. The correlation between network traffic in the pcap and the negative reputation of the IP warrants a deeper investigation to determine whether the activity represents an active threat, attempted intrusion, or false positive. Further analysis should include host-level inspection, validation of traffic intent, and review of related logs to assess any impact.
 
-
-
+  <h2> Lessons Learned </h2>
   
+- **Reputation checks are a crucial first step:** Tools like AbuseIPDB and VirusTotal quickly show whether an IP or domain has known malicious history, helping to prioritise alerts.
+
+- **One indicator is not enough:** A malicious reputation alone does not confirm compromise; multiple data sources and contextual evidence are required to avoid false positives.
+
+- **Packet captures provide valuable evidence:** Analysing PCAPs helps validate whether suspicious network activity is legitimate, accidental, or malicious.
+
+- **Threat hunting requires correlation:** Effective investigations depend on correlating logs, threat intelligence, and network activity rather than relying on single artefacts.
+
+- **Documentation matters:** Recording findings, steps taken, and conclusions makes investigations repeatable, auditable, and defensible.
+
+- **Escalation decisions should be evidence-based:** Even preliminary IOC matches (malicious IPs, unusual traffic patterns) should trigger deeper analysis when uncertainty or risk remains.
+
+- **Using OSINT tools builds speed and confidence:** Familiarity with public threat-intel platforms improves time-to-triage and supports stronger decision-making.
+
 <h2> 🤳 Connect with me:</h2>
 
 [<img align="left" alt="michael-musoke | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
