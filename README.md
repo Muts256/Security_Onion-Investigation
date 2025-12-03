@@ -13,7 +13,7 @@
 
   Security Onion
 
-<h2> Scenario </h2>
+
 
   A suspicious packet was captured in an organisation's network traffic. You have been asked to investigate this packet and find what it contains 
 
@@ -36,12 +36,44 @@
 
   ![image alt](https://github.com/Muts256/Security_Onion-Investigation/blob/8d901d6d8603c48c06c66f52607d39a78b881874/S3.png)
 
-  Once the browser opens into the pcap. Select the dates the pcap was captured.
+  Once the browser opens into the pcap. Select the dates the pcap was captured. In this case 2022-01-07-2022-01-31
 
   ![image alt](https://github.com/Muts256/Security_Onion-Investigation/blob/8d901d6d8603c48c06c66f52607d39a78b881874/S4.png)
 
 
+  Scrolling to the Event alerts by Suricata and Zeek at the time. Under the event.dataset notice that Suricata and Zeek flagged some packets 
+  
 
+  ![image alt](https://github.com/Muts256/Security_Onion-Investigation/blob/93a9e8162f2aa4b8b1d6c843807a46e7d63f8829/S5.png)
+
+  In the Alerts tab, 9 counts of Malware Vider are shown
+
+  ![image alt](https://github.com/Muts256/Security_Onion-Investigation/blob/93a9e8162f2aa4b8b1d6c843807a46e7d63f8829/S6.png)
+
+  Vidar is a type of malware, specifically an “infostealer” (also called a “stealer”). An infostealer’s goal is to gather sensitive information from an infected computer (passwords, browser credentials, cookies, possibly crypto-wallet data, etc.)      and send that data back to attackers.
+  Scrolling further, notice a public IP address. 2.56.57.108. 
+  
+  ![image alt](https://github.com/Muts256/Security_Onion-Investigation/blob/93a9e8162f2aa4b8b1d6c843807a46e7d63f8829/S7.png)
+
+  Used OSINT tools to find out more about the source IP address. AbuseIPDB in particular.
+
+  ![image alt](https://github.com/Muts256/Security_Onion-Investigation/blob/93a9e8162f2aa4b8b1d6c843807a46e7d63f8829/S8.png)
+
+  AbuseIPDB.com, the source IP based in Singapore, was reported several times. It was associated with multiple cases of misuse.
+
+
+  Use VirusTotal to find more information about this IP address
+
+  ![image alt](https://github.com/Muts256/Security_Onion-Investigation/blob/93a9e8162f2aa4b8b1d6c843807a46e7d63f8829/S9.png)
+
+  VirusTotal showed that the IP address has been reported by 4 security vcendors and has been associated with malicious activity
+
+  More investigations can be done on the file extension and comparing them to the Gary Kessler Magic number to confirm the file extensions are valid; otherwise, they could be obfuscating messages in them.
+
+  
+  <h2> Conclusion </h2>
+
+  The preliminary investigation indicates that the IP address identified in the packet capture has multiple malicious reports on both AbuseIPDB and VirusTotal. While these findings do not confirm compromise on their own, they provide sufficient       indicators of potentially harmful activity. The correlation between network traffic in the pcap and the negative reputation of the IP warrants a deeper investigation to determine whether the activity represents an active threat, attempted intrusion, or false positive. Further analysis should include host-level inspection, validation of traffic intent, and review of related logs to assess any impact.
 
 
 
